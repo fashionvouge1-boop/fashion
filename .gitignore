@@ -1,0 +1,20 @@
+# Secrets — never commit
+.env
+**/.env
+
+# Dependencies
+**/node_modules/
+
+# Build output
+**/build/
+
+# Editor / local history
+.history/
+.qodo/
+
+# Large / local files
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db

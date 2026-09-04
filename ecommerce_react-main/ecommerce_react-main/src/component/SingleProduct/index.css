@@ -1,0 +1,132 @@
+.signle_rating_box {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  width: max-content;
+  padding: 2px 8px;
+  border-radius: 16px;
+  background: #fff;
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+}
+
+.signle_rating_box i {
+  font-size: 11px;
+  margin-left: 5px;
+  color: #228b22;
+}
+
+[class^="number-slide"],
+[class*=" number-slide"] {
+  background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 200px;
+}
+.thumbnail.keen-slider {
+  padding: 6px 10px;
+}
+.thumbnail .keen-slider__slide {
+  font-size: 30px;
+  margin-top: 10px;
+  height: 100px;
+  padding: 6px;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid #ececec;
+}
+.thumbnail .keen-slider__slide {
+  cursor: pointer;
+}
+.thumbnail .keen-slider__slide.active {
+  border: 2.21348px solid var(--borderColor);
+}
+
+.address-box {
+  font-family: inherit;
+  position: relative;
+  padding: 10px;
+  width: 100%;
+  height: 44px;
+  font-size: 14px;
+  border: 1px solid #bfc0c6;
+}
+.pincode-input > input {
+  border: none;
+  width: 100%;
+  outline: none;
+}
+
+.address-button {
+  background-color: #fff;
+  border: none;
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.image-banner-table {
+  display: table;
+  width: 100%;
+  padding: 8px 8px;
+  table-layout: fixed;
+}
+image-banner-item:first-child {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.image-banner-item {
+  display: table-cell;
+  text-align: center;
+  font-size: 14px;
+  color: #282c3f;
+}
+.image-banner-image {
+  width: 40px;
+}
+.cardification {
+  background-color: #f4f4f5;
+  height: 10px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.disImage img {
+  width: 100%;
+}
+
+.Timer-Up{
+  flex-direction: block;
+}
+
+
+.main-ciecle-price{
+  display: flex;
+  margin-left: 4.5rem;
+  width: 7.9rem;
+  height: 2.1rem;
+  border-radius: 1rem 1rem 0 0;
+  border-bottom: 1px solid white;
+}
+
+.inner-price-text{
+  /* position: absolute; */
+  /* left: 10%; */
+  text-align: center;
+  padding: 6px 8px 0px 10px;
+}
+
+.feature-title{
+  font-size: 13px;
+  color: #000;
+  font-weight: 500;
+}
