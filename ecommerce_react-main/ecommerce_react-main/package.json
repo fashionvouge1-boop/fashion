@@ -27,7 +27,6 @@
     "react-loader-spinner": "^6.1.6",
     "react-loading-skeleton": "^3.3.1",
     "react-router-dom": "6.3.0",
-    "react-scripts": "^5.0.1",
     "react-shimmer-effects": "^1.0.3",
     "react-virtuoso": "^4.6.2",
     "sass": "^1.54.8",
@@ -59,6 +58,7 @@
     ]
   },
   "devDependencies": {
-    "cross-env": "^10.1.0"
+    "cross-env": "^10.1.0",
+    "react-scripts": "^5.0.1"
   }
 }
