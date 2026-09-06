@@ -6,17 +6,14 @@ const isLocalOrMissing =
   envApiUrl.includes("localhost") ||
   envApiUrl.includes("127.0.0.1");
 const isWrongRenderHost = envApiUrl.includes("fashion-vouge-api.onrender.com");
+const isLocalHost = typeof window !== "undefined" && window.location &&
+  (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1");
 
-// Prefer explicit REACT_APP_API_URL when provided and not the known wrong host.
-// Otherwise use same-origin at runtime (so frontend and backend on the same Render host work),
-// fall back to the historical PRODUCTION_API_URL if neither is available.
+// Use the local API during development and the separate backend in production.
 export const API_URL = envApiUrl && !isWrongRenderHost
   ? envApiUrl.replace(/\/$/, "")
-  : isLocalOrMissing && typeof window !== "undefined" && window.location &&
-    (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1")
+  : isLocalHost
     ? "http://localhost:5000"
-    : (typeof window !== "undefined" && window.location && window.location.origin)
-    ? window.location.origin
     : PRODUCTION_API_URL;
 
 export const PHONEPE_NODE_URL =
