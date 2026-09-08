@@ -38,11 +38,13 @@ const Home = () => {
     axios
       .get(`${API_URL}/api/products`)
       .then((response) => {
-        if (response?.data?.length > 0) {
-          setProductsArray(response?.data);
-        } else {
-          setProductsArray([]);
-        }
+        const responseData = response?.data;
+        const products = Array.isArray(responseData)
+          ? responseData
+          : Array.isArray(responseData?.data)
+            ? responseData.data
+            : [];
+        setProductsArray(products);
         setIsLoader(false);
       })
       .catch(() => {

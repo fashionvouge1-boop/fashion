@@ -48,20 +48,22 @@ const CategoryPage = () => {
             .get(url)
             .then(function (response) {
                 // handle success
-                if (
-                    response?.data?.data?.length > 0 &&
-                    response?.data?.statusCode === 1
-                ) {
-                    setProductsArray((prev) => [...prev, ...response.data.data]);
-                    // setIsLoader(true);
+                const responseData = response?.data;
+                const products = Array.isArray(responseData)
+                    ? responseData
+                    : Array.isArray(responseData?.data)
+                        ? responseData.data
+                        : [];
+                if (products.length > 0) {
+                    setProductsArray((prev) => [...prev, ...products]);
                 } else {
                     setHasMore(false);
                     setIsLoader(true);
                 }
-                if (response?.data?.total) {
-                    setTotelData(response.data.total);
+                if (responseData?.total) {
+                    setTotelData(responseData.total);
                 }
-                if (response?.data?.data?.length === response?.data?.total) {
+                if (responseData?.total && products.length === responseData.total) {
                     setHasMore(true);
                 }
             })
@@ -124,7 +126,7 @@ const CategoryPage = () => {
                     </>
                 ) : (
                     productsArray?.map((item, index) => (
-                        <ProductCard item={item} index={index}/>
+                        <ProductCard item={item} index={index} key={item._id || item.id || index}/>
                     ))
                 )}
             </Row>
