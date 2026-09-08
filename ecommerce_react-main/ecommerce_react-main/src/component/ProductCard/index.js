@@ -17,8 +17,9 @@ const ProductCard = ({ item }) => {
 
   // -------- SAFE PRICE HANDLING --------
   const variant = item?.variants?.[0] || {};
-  const price = Number(variant.price) || null;
-  const comparePrice = Number(variant.compare_at_price) || null;
+  const price = Number(variant.price ?? item?.price) || null;
+  const comparePrice =
+    Number(variant.compare_at_price ?? item?.compare_at_price) || null;
 
   let discountPercent = null;
   if (price && comparePrice) {
