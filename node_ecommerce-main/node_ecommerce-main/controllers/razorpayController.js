@@ -70,6 +70,8 @@ exports.createRazorpayOrder = async (req, res) => {
       error: err.code === 'RAZORPAY_CONFIGURATION_ERROR'
         ? err.message
         : 'Razorpay could not create the order',
+      code: err.error?.code || err.code || 'RAZORPAY_ORDER_ERROR',
+      details: err.error?.description || undefined,
     });
   }
 };
