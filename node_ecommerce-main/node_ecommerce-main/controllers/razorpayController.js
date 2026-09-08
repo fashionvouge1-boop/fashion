@@ -1,16 +1,28 @@
 const Razorpay = require('razorpay');
 const crypto = require('crypto');
 
+const getRazorpayCredentials = () => {
+  const keyId = process.env.RAZORPAY_KEY_ID?.trim();
+  const keySecret = process.env.RAZORPAY_KEY_SECRET?.trim();
+
+  if (!keyId || !keySecret || keyId.startsWith('your_') || keySecret.startsWith('your_')) {
+    return null;
+  }
+
+  return { keyId, keySecret };
+};
+
 const getRazorpay = () => {
-  if (!process.env.RAZORPAY_KEY_ID || !process.env.RAZORPAY_KEY_SECRET ||
-      process.env.RAZORPAY_KEY_ID.startsWith('your_') ||
-      process.env.RAZORPAY_KEY_SECRET.startsWith('your_')) {
-    throw new Error('Razorpay credentials are not configured');
+  const credentials = getRazorpayCredentials();
+  if (!credentials) {
+    const error = new Error('Razorpay credentials are not configured on the backend');
+    error.code = 'RAZORPAY_CONFIGURATION_ERROR';
+    throw error;
   }
 
   return new Razorpay({
-    key_id: process.env.RAZORPAY_KEY_ID,
-    key_secret: process.env.RAZORPAY_KEY_SECRET,
+    key_id: credentials.keyId,
+    key_secret: credentials.keySecret,
   });
 };
 
@@ -39,6 +51,7 @@ exports.createRazorpayOrder = async (req, res) => {
 
     const order = await getRazorpay().orders.create(options);
 
+    const credentials = getRazorpayCredentials();
     res.json({
       success: true,
       data: {
@@ -47,14 +60,16 @@ exports.createRazorpayOrder = async (req, res) => {
         currency: order.currency,
         receipt: order.receipt,
         status: order.status,
-        keyId: process.env.RAZORPAY_KEY_ID,
+        keyId: credentials.keyId,
       },
     });
   } catch (err) {
     console.error('Razorpay create order error:', err);
     res.status(500).json({
       success: false,
-      error: err.message || 'Failed to create Razorpay order',
+      error: err.code === 'RAZORPAY_CONFIGURATION_ERROR'
+        ? err.message
+        : 'Razorpay could not create the order',
     });
   }
 };
@@ -72,14 +87,28 @@ exports.verifyRazorpayPayment = async (req, res) => {
 
     const body = razorpay_order_id + '|' + razorpay_payment_id;
 
+    const credentials = getRazorpayCredentials();
+    if (!credentials) {
+      return res.status(503).json({
+        success: false,
+        error: 'Razorpay credentials are not configured on the backend',
+      });
+    }
+
     const expectedSignature = crypto
-      .createHmac('sha256', process.env.RAZORPAY_KEY_SECRET)
+      .createHmac('sha256', credentials.keySecret)
       .update(body.toString())
       .digest('hex');
 
-    const isAuthentic = expectedSignature === razorpay_signature;
+    const isAuthentic =
+      expectedSignature.length === razorpay_signature.length &&
+      crypto.timingSafeEqual(
+        Buffer.from(expectedSignature),
+        Buffer.from(razorpay_signature)
+      );
 
     if (isAuthentic) {
+      const credentials = getRazorpayCredentials();
       res.json({
         success: true,
         message: 'Payment verified successfully',
@@ -155,7 +184,7 @@ exports.createRazorpayOrderOld = async (req, res) => {
         orderId: order.id,
         amount: order.amount,
         currency: order.currency,
-        keyId: process.env.RAZORPAY_KEY_ID,
+        keyId: credentials.keyId,
         name: finalName,
         email: finalEmail,
         mobile: finalMobile,
