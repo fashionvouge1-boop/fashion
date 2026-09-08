@@ -144,7 +144,7 @@ exports.createRazorpayOrderOld = async (req, res) => {
       },
     };
 
-    const order = await razorpay.orders.create(options);
+    const order = await getRazorpay().orders.create(options);
 
     res.json({
       success: true,
