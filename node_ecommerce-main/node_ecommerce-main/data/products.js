@@ -925,5 +925,37 @@ module.exports = [
       "XL",
       "XXL"
     ]
+  },
+  {
+    "_id": "34475165",
+    "id": 34475165,
+    "title": "BEING NAUGHTY Women Graphic Print Fit & Flare Dress",
+    "handle": "being-naughty-women-graphic-print-fit-flare-dress",
+    "vendor": "BEING NAUGHTY",
+    "product_type": "Dress",
+    "tags": [
+      "Dress",
+      "Women"
+    ],
+    "images": [
+      {
+        "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-34475165-1.jpg"
+      }
+    ],
+    "price": 993,
+    "variants": [
+      {
+        "price": 993
+      }
+    ],
+    "discount": 0,
+    "rating": 0,
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
   }
 ];
