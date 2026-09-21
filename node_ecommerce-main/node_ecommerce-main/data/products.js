@@ -878,5 +878,31 @@ module.exports = [
       "L",
       "XL"
     ]
+  },
+  {
+    "_id": "43436309",
+    "id": 43436309,
+    "title": "BEING NAUGHTY A Line Mini Dress",
+    "handle": "being-naughty-a-line-mini-dress",
+    "vendor": "BEING NAUGHTY",
+    "product_type": "Dress",
+    "tags": [
+      "Dress",
+      "Women"
+    ],
+    "images": [
+      {
+        "src": "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2026/JUNE/25/Uaik8O4p_243d8d695b144e6c9a4e9a35a099a67e.jpg"
+      }
+    ],
+    "price": 983,
+    "variants": [
+      {
+        "price": 983
+      }
+    ],
+    "discount": 0,
+    "rating": 0,
+    "size": []
   }
 ];
