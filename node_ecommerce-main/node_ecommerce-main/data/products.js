@@ -1015,5 +1015,82 @@ module.exports = [
         "size": ["S", "M", "L", "XL", "XXL"]
       }
     ]
+  },
+  {
+    "_id": "30816964",
+    "id": 30816964,
+    "title": "YASH GALLERY Floral Printed Sleeveless A-Line Dress",
+    "handle": "yash-gallery-floral-printed-sleeveless-a-line-dress",
+    "vendor": "YASH GALLERY",
+    "product_type": "Dress",
+    "tags": [
+      "Dress",
+      "Women",
+      "Floral",
+      "Sleeveless"
+    ],
+    "images": [
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/yash-gallery-30816964-01.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/yash-gallery-30816964-02.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/yash-gallery-30816964-03.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/yash-gallery-30816964-04.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/yash-gallery-30816964-05.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/yash-gallery-30816964-06.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/yash-gallery-30816964-07.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/yash-gallery-30816964-08.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/yash-gallery-30816964-09.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/yash-gallery-30816964-10.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/yash-gallery-30816964-11.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/yash-gallery-30816964-12.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/yash-gallery-30816964-13.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/yash-gallery-30816964-14.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/yash-gallery-30816964-15.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/yash-gallery-30816964-16.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/yash-gallery-30816964-17.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/yash-gallery-30816964-18.jpg" }
+    ],
+    "price": 598,
+    "variants": [{ "price": 598 }],
+    "discount": 0,
+    "rating": 0,
+    "size": ["S", "M", "L", "XL", "XXL"],
+    "color_variants": [
+      {
+        "color": "Blue",
+        "images": [
+          "yash-gallery-30816964-01.jpg",
+          "yash-gallery-30816964-02.jpg",
+          "yash-gallery-30816964-03.jpg",
+          "yash-gallery-30816964-04.jpg",
+          "yash-gallery-30816964-05.jpg",
+          "yash-gallery-30816964-06.jpg"
+        ],
+        "size": ["S", "M", "L", "XL", "XXL"]
+      },
+      {
+        "color": "Red",
+        "images": [
+          "yash-gallery-30816964-07.jpg",
+          "yash-gallery-30816964-08.jpg",
+          "yash-gallery-30816964-09.jpg",
+          "yash-gallery-30816964-10.jpg",
+          "yash-gallery-30816964-11.jpg",
+          "yash-gallery-30816964-12.jpg"
+        ],
+        "size": ["S", "M", "L", "XL", "XXL"]
+      },
+      {
+        "color": "Black",
+        "images": [
+          "yash-gallery-30816964-13.jpg",
+          "yash-gallery-30816964-14.jpg",
+          "yash-gallery-30816964-15.jpg",
+          "yash-gallery-30816964-16.jpg",
+          "yash-gallery-30816964-17.jpg",
+          "yash-gallery-30816964-18.jpg"
+        ],
+        "size": ["S", "M", "L", "XL", "XXL"]
+      }
+    ]
   }
 ];
