@@ -892,7 +892,22 @@ module.exports = [
     ],
     "images": [
       {
-        "src": "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2026/JUNE/25/Uaik8O4p_243d8d695b144e6c9a4e9a35a099a67e.jpg"
+        "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-43436309-1.jpg"
+      },
+      {
+        "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-43436309-2.jpg"
+      },
+      {
+        "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-43436309-3.jpg"
+      },
+      {
+        "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-43436309-4.jpg"
+      },
+      {
+        "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-43436309-5.jpg"
+      },
+      {
+        "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-43436309-6.jpg"
       }
     ],
     "price": 983,
@@ -903,6 +918,12 @@ module.exports = [
     ],
     "discount": 0,
     "rating": 0,
-    "size": []
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
   }
 ];

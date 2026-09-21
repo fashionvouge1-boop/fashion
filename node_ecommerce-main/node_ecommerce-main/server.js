@@ -9,6 +9,7 @@ const productRoutes = require('./routes/productRoutes');
 const app = express();
 app.use(cors());
 app.use(express.json());
+app.use('/product-images', express.static('assets/product-images'));
 
 app.get('/api/slider-image/get', (req, res) => {
   res.json({
