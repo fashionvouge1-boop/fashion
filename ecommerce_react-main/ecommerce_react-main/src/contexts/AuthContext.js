@@ -2,6 +2,15 @@ import { createContext, useContext, useEffect, useState } from "react";
 import axios from "axios";
 import Container from "react-bootstrap/Container";
 import { API_URL, THEAM_COLOR } from "../config";
+import dressesBanner from "../assets/banner-dresses.jpg";
+import dressberryBanner from "../assets/banner-dressberry.jpg";
+import topsTeesBanner from "../assets/banner-tops-tees.jpg";
+
+const localSliderImages = [
+  dressesBanner,
+  dressberryBanner,
+  topsTeesBanner,
+];
 
 const AuthContextProvide = createContext();
 
@@ -17,7 +26,7 @@ const AuthContext = ({ children }) => {
   const [totalDiscount, setTotalDiscount] = useState(0);
   const [totalExtraDiscount, setTotalExtraDiscount] = useState(0);
   const [selectedProduct, setSelectedProduct] = useState([]);
-  const [sliderImages, setSliderImages] = useState([]);
+  const [sliderImages, setSliderImages] = useState(localSliderImages);
   const [logo, setLogo] = useState("");
   const [step, setStep] = useState(1);
   const [address, setAddress] = useState({});
@@ -48,7 +57,12 @@ const AuthContext = ({ children }) => {
     axios
       .get(url)
       .then(function (response) {
-        setSliderImages(response?.data?.data?.slideImages || []);
+        const remoteSliderImages = response?.data?.data?.slideImages;
+        setSliderImages(
+          Array.isArray(remoteSliderImages) && remoteSliderImages.length > 0
+            ? [...localSliderImages, ...remoteSliderImages]
+            : localSliderImages
+        );
         setLogo(response?.data?.data?.logo || []);
       })
       .catch(function (error) {
