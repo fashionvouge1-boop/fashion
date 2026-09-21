@@ -60,6 +60,7 @@ function ThumbnailPlugin(mainRef) {
 const SingleProduct = () => {
   const { id } = useParams();
   const [selectSize, setSelectSize] = useState("M");
+  const [selectedColor, setSelectedColor] = useState("");
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
   const navigate = useNavigate();
@@ -92,6 +93,23 @@ const SingleProduct = () => {
   }, [location, ref]);
 
   const [singleData, setSingleData] = useState(singleProduct);
+  const colorVariants = singleData?.color_variants || [];
+  const selectedColorVariant =
+    colorVariants.find((variant) => variant.color === selectedColor) ||
+    colorVariants[0];
+  const displayedImages = selectedColorVariant?.images?.length
+    ? selectedColorVariant.images.map((src) => ({
+        src: src.startsWith("http")
+          ? src
+          : `${API_URL.replace(/\/api\/?$/, "")}/product-images/${src}`,
+      }))
+    : singleData?.images || [];
+
+  useEffect(() => {
+    if (colorVariants.length > 0 && !selectedColor) {
+      setSelectedColor(colorVariants[0].color);
+    }
+  }, [colorVariants, selectedColor]);
 
   const [reletedProduct, setReletedProduct] = useState([]);
 
@@ -160,7 +178,7 @@ const SingleProduct = () => {
               <div className="position-relative">
                 {singleData?.images && (
                   <div ref={sliderRef} className="keen-slider mt-1">
-                    {singleData?.images?.map((item, index) => (
+                    {displayedImages.map((item, index) => (
                       <div key={index} className="keen-slider__slide">
                         {process.env.REACT_APP_themssizetype === "Portrait" ? (
                           <img
@@ -196,7 +214,7 @@ const SingleProduct = () => {
               </div>
               <div>
                 <div className="dots" style={{ background: "unset" }}>
-                  {[...Array(singleData?.images?.length).keys()].map((idx) => {
+                  {[...Array(displayedImages.length).keys()].map((idx) => {
                     return (
                       <button
                         key={idx}
@@ -211,7 +229,7 @@ const SingleProduct = () => {
                   })}
                 </div>
                 <div ref={thumbnailRef} className="keen-slider thumbnail">
-                  {singleData?.images?.map((img, index) => (
+                  {displayedImages.map((img, index) => (
                     <div
                       className={`keen-slider__slide number-slide${index + 1}`}
                       style={{ "--borderColor": "var(--them-color)" }}
@@ -358,6 +376,36 @@ const SingleProduct = () => {
             </div>
 
             <div className="cardification" />
+            {colorVariants.length > 0 && (
+              <div className="mt-2 pb-2" style={{ textAlign: "start" }}>
+                <p style={{ fontWeight: 600 }}>Select Colour</p>
+                <div className="d-flex align-items-center">
+                  {colorVariants.map((variant) => (
+                    <button
+                      type="button"
+                      key={variant.color}
+                      onClick={() => {
+                        setSelectedColor(variant.color);
+                        setCurrentSlide(0);
+                      }}
+                      style={{
+                        border: selectedColor === variant.color
+                          ? "2px solid #252525"
+                          : "1px solid #aaa",
+                        borderRadius: "20px",
+                        background: "#fff",
+                        padding: "8px 16px",
+                        marginRight: "8px",
+                        fontWeight: selectedColor === variant.color ? 600 : 400,
+                      }}
+                    >
+                      {variant.color}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+
             {singleData?.size?.length > 0 && (
               <div className="mt-2 pb-2" style={{ textAlign: "start" }}>
                 <p style={{ fontWeight: 600 }}>Select Size</p>
@@ -565,7 +613,7 @@ const SingleProduct = () => {
                     } else {
                       handleSetCartProducts([
                         ...cartProducts,
-                        { ...singleData, quantity: 1, selectSize },
+                        { ...singleData, quantity: 1, selectSize, selectedColor },
                       ]);
                       e?.target?.classList?.add("bounceIn");
                       setTimeout(() => {

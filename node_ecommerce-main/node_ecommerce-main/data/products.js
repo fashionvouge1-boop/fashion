@@ -939,8 +939,25 @@ module.exports = [
     ],
     "images": [
       {
-        "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-34475165-1.jpg"
-      }
+        "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-34475165-2-01.jpg"
+      },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-34475165-2-02.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-34475165-2-03.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-34475165-2-04.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-34475165-2-05.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-34475165-2-06.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-34475165-2-07.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-34475165-2-08.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-34475165-2-09.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-34475165-2-10.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-34475165-2-11.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-34475165-2-12.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-34475165-2-13.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-34475165-2-14.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-34475165-2-15.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-34475165-2-16.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-34475165-2-17.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-34475165-2-18.jpg" }
     ],
     "price": 993,
     "variants": [
@@ -956,6 +973,44 @@ module.exports = [
       "L",
       "XL",
       "XXL"
+    ],
+    "color_variants": [
+      {
+        "color": "Blue",
+        "images": [
+          "being-naughty-34475165-2-01.jpg",
+          "being-naughty-34475165-2-02.jpg",
+          "being-naughty-34475165-2-03.jpg",
+          "being-naughty-34475165-2-04.jpg",
+          "being-naughty-34475165-2-05.jpg",
+          "being-naughty-34475165-2-06.jpg"
+        ],
+        "size": ["S", "M", "L", "XL", "XXL"]
+      },
+      {
+        "color": "Red",
+        "images": [
+          "being-naughty-34475165-2-07.jpg",
+          "being-naughty-34475165-2-08.jpg",
+          "being-naughty-34475165-2-09.jpg",
+          "being-naughty-34475165-2-10.jpg",
+          "being-naughty-34475165-2-11.jpg",
+          "being-naughty-34475165-2-12.jpg"
+        ],
+        "size": ["S", "M", "L", "XL", "XXL"]
+      },
+      {
+        "color": "Black",
+        "images": [
+          "being-naughty-34475165-2-13.jpg",
+          "being-naughty-34475165-2-14.jpg",
+          "being-naughty-34475165-2-15.jpg",
+          "being-naughty-34475165-2-16.jpg",
+          "being-naughty-34475165-2-17.jpg",
+          "being-naughty-34475165-2-18.jpg"
+        ],
+        "size": ["S", "M", "L", "XL", "XXL"]
+      }
     ]
   }
 ];
