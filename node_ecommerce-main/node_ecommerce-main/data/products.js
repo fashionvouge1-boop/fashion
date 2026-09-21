@@ -1092,5 +1092,45 @@ module.exports = [
         "size": ["S", "M", "L", "XL", "XXL"]
       }
     ]
+  },
+  {
+    "_id": "46016127",
+    "id": 46016127,
+    "title": "RARE Print Halter Neck A Line Dress",
+    "handle": "rare-print-halter-neck-a-line-dress",
+    "vendor": "RARE",
+    "product_type": "Dress",
+    "tags": [
+      "Dress",
+      "Women",
+      "Printed",
+      "Halter Neck",
+      "A-Line"
+    ],
+    "images": [
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/rare-46016127-01.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/rare-46016127-02.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/rare-46016127-03.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/rare-46016127-04.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/rare-46016127-05.jpg" }
+    ],
+    "price": 732,
+    "variants": [{ "price": 732 }],
+    "discount": 0,
+    "rating": 0,
+    "size": ["S", "M", "L", "XL", "XXL"],
+    "color_variants": [
+      {
+        "color": "Pink",
+        "images": [
+          "rare-46016127-01.jpg",
+          "rare-46016127-02.jpg",
+          "rare-46016127-03.jpg",
+          "rare-46016127-04.jpg",
+          "rare-46016127-05.jpg"
+        ],
+        "size": ["S", "M", "L", "XL", "XXL"]
+      }
+    ]
   }
 ];
