@@ -892,6 +892,9 @@ module.exports = [
     ],
     "images": [
       {
+        "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-43436309-0.jpg"
+      },
+      {
         "src": "https://fashion-backend-yvqn.onrender.com/product-images/being-naughty-43436309-1.jpg"
       },
       {
