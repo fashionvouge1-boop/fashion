@@ -23,6 +23,9 @@ const Home = () => {
   const [categoryArray, setCategoryArray] = useState([]);
   const [productsArray, setProductsArray] = useState([]);
   const [isLoader, setIsLoader] = useState(true);
+  const [isLoadingMore, setIsLoadingMore] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [hasMoreProducts, setHasMoreProducts] = useState(true);
   const ref = useRef(null);
   let location = useLocation();
 
@@ -34,24 +37,53 @@ const Home = () => {
     }
   }, [location, ref]);
 
-  useEffect(() => {
-    axios
-      .get(`${API_URL}/api/products`)
-      .then((response) => {
-        const responseData = response?.data;
-        const products = Array.isArray(responseData)
-          ? responseData
-          : Array.isArray(responseData?.data)
-            ? responseData.data
-            : [];
-        setProductsArray(products);
-        setIsLoader(false);
-      })
-      .catch(() => {
-        setProductsArray([]);
-        setIsLoader(false);
+  const loadProducts = async (page, append = false) => {
+    if (append) {
+      setIsLoadingMore(true);
+    } else {
+      setIsLoader(true);
+    }
+
+    try {
+      const response = await axios.get(`${API_URL}/api/products/get`, {
+        params: { limit: 20, page },
       });
+      const responseData = response?.data;
+      const products = Array.isArray(responseData)
+        ? responseData
+        : Array.isArray(responseData?.data)
+          ? responseData.data
+          : [];
+      const total = Number(responseData?.total);
+
+      setProductsArray((previousProducts) =>
+        append ? [...previousProducts, ...products] : products
+      );
+      setCurrentPage(page);
+      setHasMoreProducts(
+        Number.isFinite(total)
+          ? page * 20 < total
+          : products.length === 20
+      );
+    } catch {
+      if (!append) {
+        setProductsArray([]);
+      }
+    } finally {
+      setIsLoader(false);
+      setIsLoadingMore(false);
+    }
+  };
+
+  useEffect(() => {
+    loadProducts(1);
   }, []);
+
+  const handleViewMore = () => {
+    if (!isLoadingMore && hasMoreProducts) {
+      loadProducts(currentPage + 1, true);
+    }
+  };
 
   const [sliderRef] = useKeenSlider(
     {
@@ -167,9 +199,25 @@ const Home = () => {
           </Row>
 
         )}
-        <Button className="btn my-3 d-flex justify-content-center align-items-center ripple animated" 
-        style={{ fontWeight: 600, fontSize: "18px", margin: "auto", borderWidth: "2px", padding: "10px 20px", borderColor: "var(--them-color)", color: "var(--them-color)", background: "#ffff", marginTop: "50%" }} 
-        onClick={(e) => { e?.target?.classList?.add("bounceIn"); setTimeout(() => { if (e?.target?.classList?.contains("bounceIn")) e?.target?.classList?.remove("bounceIn"); }, 1000); }} > View More </Button>
+        {hasMoreProducts && !isLoader && (
+          <Button
+            className="btn my-3 d-flex justify-content-center align-items-center ripple animated"
+            style={{
+              fontWeight: 600,
+              fontSize: "18px",
+              margin: "auto",
+              borderWidth: "2px",
+              padding: "10px 20px",
+              borderColor: "var(--them-color)",
+              color: "var(--them-color)",
+              background: "#ffff",
+            }}
+            disabled={isLoadingMore}
+            onClick={handleViewMore}
+          >
+            {isLoadingMore ? "Loading..." : "View More"}
+          </Button>
+        )}
       </Container>
     </div>
   );
