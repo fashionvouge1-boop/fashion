@@ -919,7 +919,7 @@ module.exports = [
         "price": 983
       }
     ],
-    "discount": 60%,
+    "discount": 60,
     "rating": 4.4,
     "size": [
       "S",
@@ -968,7 +968,7 @@ module.exports = [
         "price": 993
       }
     ],
-    "discount": 60%,
+    "discount": 60,
     "rating": 4.2,
     "size": [
       "S",
@@ -1051,7 +1051,7 @@ module.exports = [
     ],
     "price": 598,
     "variants": [{ "price": 598 }],
-    "discount": 60%,
+    "discount": 60,
     "rating": 3.8,
     "size": ["S", "M", "L", "XL", "XXL"],
     "color_variants": [
@@ -1116,7 +1116,7 @@ module.exports = [
     ],
     "price": 732,
     "variants": [{ "price": 732 }],
-    "discount": 60%,
+    "discount": 60,
     "rating": 4.1,
     "size": ["S", "M", "L", "XL", "XXL"],
     "color_variants": [
