@@ -11,6 +11,14 @@ app.use(cors());
 app.use(express.json());
 app.use('/product-images', express.static('assets/product-images'));
 
+app.get('/', (req, res) => {
+  res.json({ status: 'ok', service: 'fashion-backend' });
+});
+
+app.get('/health', (req, res) => {
+  res.json({ status: 'ok' });
+});
+
 app.get('/api/slider-image/get', (req, res) => {
   res.json({
     statusCode: 1,
