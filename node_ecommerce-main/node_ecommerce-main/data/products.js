@@ -1132,5 +1132,34 @@ module.exports = [
         "size": ["S", "M", "L", "XL", "XXL"]
       }
     ]
+  },
+  {
+    "_id": "33544130",
+    "id": 33544130,
+    "title": "RANGRIWAZ Floral Print Fit & Flare Dress",
+    "handle": "rangriwaz-floral-print-fit-flare-dress",
+    "vendor": "RANGRIWAZ",
+    "product_type": "Dress",
+    "tags": [
+      "Dress",
+      "Women",
+      "Floral",
+      "Fit & Flare"
+    ],
+    "images": [
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/rangriwaz-33544130-01.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/rangriwaz-33544130-02.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/rangriwaz-33544130-03.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/rangriwaz-33544130-04.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/rangriwaz-33544130-05.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/rangriwaz-33544130-06.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/rangriwaz-33544130-07.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/rangriwaz-33544130-08.jpg" }
+    ],
+    "price": 559,
+    "variants": [{ "price": 559 }],
+    "discount": 60,
+    "rating": 3.9,
+    "size": ["S", "M", "L", "XL", "XXL"]
   }
 ];
