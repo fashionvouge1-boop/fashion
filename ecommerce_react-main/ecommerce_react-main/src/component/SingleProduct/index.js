@@ -98,11 +98,14 @@ const SingleProduct = () => {
     colorVariants.find((variant) => variant.color === selectedColor) ||
     colorVariants[0];
   const displayedImages = selectedColorVariant?.images?.length
-    ? selectedColorVariant.images.map((src) => ({
-        src: src.startsWith("http")
-          ? src
-          : `${API_URL.replace(/\/api\/?$/, "")}/product-images/${src}`,
-      }))
+    ? selectedColorVariant.images.map((image) => {
+        const src = typeof image === "string" ? image : image?.src;
+        return {
+          src: src?.startsWith("http")
+            ? src
+            : `${API_URL.replace(/\/api\/?$/, "")}/product-images/${src}`,
+        };
+      })
     : singleData?.images || [];
 
   useEffect(() => {
