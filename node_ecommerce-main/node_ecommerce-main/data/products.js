@@ -1013,7 +1013,7 @@ module.exports = [
           "being-naughty-34475165-2-18.jpg"
         ],
         "size": ["S", "M", "L", "XL", "XXL"]
-      }
+      },
     ]
   },
   {
@@ -1161,7 +1161,7 @@ module.exports = [
     "discount": 60,
     "rating": 3.9,
     "size": ["S", "M", "L", "XL", "XXL"]
-  }
+  },
   {
   "_id": "39473890",
   "id": 39473890,
@@ -1177,12 +1177,12 @@ module.exports = [
     "Crepe"
   ],
   "images": [
-    { "src": "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-01.jpg" },
-    { "src": "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-02.jpg" },
-    { "src": "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-03.jpg" },
-    { "src": "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-04.jpg" },
-    { "src": "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-05.jpg" },
-    { "src": "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-06.jpg" }
+    "dressberry-39473890-01.jpg",
+    "dressberry-39473890-02.jpg",
+    "dressberry-39473890-03.jpg",
+    "dressberry-39473890-04.jpg",
+    "dressberry-39473890-05.jpg",
+    "dressberry-39473890-06.jpg"
   ],
   "price": 879,
   "variants": [{ "price": 879 }],
