@@ -1193,12 +1193,12 @@ module.exports = [
     {
       "color": "Navy Blue",
       "images": [
-        "dressberry-39473890-01.jpg",
-        "dressberry-39473890-02.jpg",
-        "dressberry-39473890-03.jpg",
-        "dressberry-39473890-04.jpg",
-        "dressberry-39473890-05.jpg",
-        "dressberry-39473890-06.jpg"
+    { "src": "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-01.jpg" },
+    { "src": "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-02.jpg" },
+    { "src": "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-03.jpg" },
+    { "src": "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-04.jpg" },
+    { "src": "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-05.jpg" },
+    { "src": "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-06.jpg" }
       ],
       "size": ["S", "M", "L", "XL", "XXL"]
     }
