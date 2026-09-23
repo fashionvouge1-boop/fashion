@@ -1162,4 +1162,46 @@ module.exports = [
     "rating": 3.9,
     "size": ["S", "M", "L", "XL", "XXL"]
   }
+  {
+  "_id": "39473890",
+  "id": 39473890,
+  "title": "DressBerry Floral Print Crepe Fit & Flare Dress",
+  "handle": "dressberry-floral-print-crepe-fit-flare-dress",
+  "vendor": "DressBerry",
+  "product_type": "Dress",
+  "tags": [
+    "Dress",
+    "Women",
+    "Floral",
+    "Fit & Flare",
+    "Crepe"
+  ],
+  "images": [
+    { "src": "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-01.jpg" },
+    { "src": "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-02.jpg" },
+    { "src": "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-03.jpg" },
+    { "src": "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-04.jpg" },
+    { "src": "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-05.jpg" },
+    { "src": "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-06.jpg" }
+  ],
+  "price": 879,
+  "variants": [{ "price": 879 }],
+  "discount": 50,
+  "rating": 4.0,
+  "size": ["S", "M", "L", "XL", "XXL"],
+  "color_variants": [
+    {
+      "color": "Navy Blue",
+      "images": [
+        "dressberry-39473890-01.jpg",
+        "dressberry-39473890-02.jpg",
+        "dressberry-39473890-03.jpg",
+        "dressberry-39473890-04.jpg",
+        "dressberry-39473890-05.jpg",
+        "dressberry-39473890-06.jpg"
+      ],
+      "size": ["S", "M", "L", "XL", "XXL"]
+    }
+  ]
+}
 ];
