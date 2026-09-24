@@ -1195,41 +1195,157 @@ module.exports = [
     {
       "color": "Navy Blue",
       "images": [
-        { "src": "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-01.jpg" },
-        { "src": "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-02.jpg" },
-        { "src": "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-03.jpg" },
-        { "src": "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-04.jpg" },
-        { "src": "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-05.jpg" },
-        { "src": "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-06.jpg" },
-        { "src": "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-07.jpg" },
-        { "src": "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-08.jpg" }
+        "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-01.jpg",
+        "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-02.jpg",
+        "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-03.jpg",
+        "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-04.jpg",
+        "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-05.jpg",
+        "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-06.jpg",
+        "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-07.jpg",
+        "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-08.jpg"
       ],
       "size": ["S", "M", "L", "XL", "XXL"]
-    },
-     {
-    "_id": "42563849",
-    "id": 42563849,
-    "title": "White and Pink Paisley Print Fit & Flare dresses",
-    "handle": "White and Pink Paisley Print Fit & Flare dresses",
-    "vendor": "RANGRIWAZ",
-    "product_type": "Dress",
-    "tags": [
-      "Dress",
-      "Women",
-      "Floral",
-      "Fit & Flare"
-    ],
-    "images": [
-      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/sera-print-fit-flare-dress-42563849-01.jpg" },
-      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/sera-print-fit-flare-dress-42563849-02.jpg" },
-      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/sera-print-fit-flare-dress-42563849-03.jpg" },
-      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/sera-print-fit-flare-dress-42563849-04.jpg" },
-      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/sera-print-fit-flare-dress-42563849-05.jpg" }, 
-    ],
-    "price": 559,
-    "variants": [{ "price": 559 }],
-    "discount": 60,
-    "rating": 3.9,
-    "size": ["S", "M", "L", "XL", "XXL"]
+    }
+  ]
   },
-]
+
+  {
+    "_id": "46464998",
+    "id": 46464998,
+    "title": "Largish Women Printed Longline Shrug",
+    "handle": "largish-women-printed-longline-shrug",
+    "vendor": "Largish",
+    "product_type": "Shrug",
+    "tags": ["Shrug", "Women", "Printed", "Longline"],
+    "images": [
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-01.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-02.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-03.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-04.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-05.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-06.jpg"}
+    ],
+    "price": 599,
+    "variants": [{"price": 599}],
+    "discount": 60,
+    "rating": 4.1,
+    "size": ["S", "M", "L", "XL"]
+  },
+  {
+    "_id": "46014112",
+    "id": 46014112,
+    "title": "Roadster Women Printed Shrug",
+    "handle": "roadster-women-printed-shrug",
+    "vendor": "Roadster",
+    "product_type": "Shrug",
+    "tags": ["Shrug", "Women", "Printed"],
+    "images": [
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-01.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-02.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-03.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-04.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-05.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-06.jpg"}
+    ],
+    "price": 599,
+    "variants": [{"price": 599}],
+    "discount": 60,
+    "rating": 4.0,
+    "size": ["S", "M", "L", "XL"]
+  },
+  {
+    "_id": "31050280",
+    "id": 31050280,
+    "title": "Style Quotient Women Ethnic Printed Shrug",
+    "handle": "style-quotient-women-ethnic-printed-shrug",
+    "vendor": "Style Quotient",
+    "product_type": "Shrug",
+    "tags": ["Shrug", "Women", "Ethnic", "Printed"],
+    "images": [
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-01.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-02.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-03.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-04.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-05.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-06.jpg"}
+    ],
+    "price": 513,
+    "variants": [{"price": 513, "compare_at_price": 1299}],
+    "discount": 61,
+    "rating": 3.9,
+    "size": ["S", "M", "L", "XL"]
+  },
+  {
+    "_id": "39519896",
+    "id": 39519896,
+    "title": "Sangria Embroidered Tie-Up Shrug",
+    "handle": "sangria-embroidered-tie-up-shrug",
+    "vendor": "Sangria",
+    "product_type": "Shrug",
+    "tags": ["Shrug", "Women", "Ethnic", "Embroidered", "Tie-Up"],
+    "images": [
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-birds-39519896-01.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-birds-39519896-02.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-birds-39519896-03.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-birds-39519896-04.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-birds-39519896-05.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-birds-39519896-06.jpg"}
+    ],
+    "price": 699,
+    "variants": [{"price": 699}],
+    "discount": 57,
+    "rating": 4.1,
+    "size": ["M", "L", "XL", "XXL"],
+    "color_variants": [
+      {
+        "color": "Birds",
+        "images": [
+          "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-birds-39519896-01.jpg",
+          "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-birds-39519896-02.jpg",
+          "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-birds-39519896-03.jpg",
+          "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-birds-39519896-04.jpg",
+          "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-birds-39519896-05.jpg",
+          "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-birds-39519896-06.jpg"
+        ],
+        "size": ["M", "L", "XL", "XXL"]
+      },
+      {
+        "color": "Flower",
+        "images": [
+          "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-flower-39519898-01.jpg",
+          "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-flower-39519898-02.jpg",
+          "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-flower-39519898-03.jpg",
+          "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-flower-39519898-04.jpg",
+          "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-flower-39519898-05.jpg",
+          "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-flower-39519898-06.jpg"
+        ],
+        "size": ["M", "L", "XL", "XXL"]
+      },
+      {
+        "color": "Fluted",
+        "images": [
+          "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-fluted-39519899-01.jpg",
+          "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-fluted-39519899-02.jpg",
+          "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-fluted-39519899-03.jpg",
+          "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-fluted-39519899-04.jpg",
+          "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-fluted-39519899-05.jpg",
+          "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-fluted-39519899-06.jpg"
+        ],
+        "size": ["M", "L", "XL", "XXL"]
+      },
+      {
+        "color": "Square",
+        "images": [
+          "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-square-39519900-01.jpg",
+          "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-square-39519900-02.jpg",
+          "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-square-39519900-03.jpg",
+          "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-square-39519900-04.jpg",
+          "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-square-39519900-05.jpg",
+          "https://fashion-backend-yvqn.onrender.com/product-images/sangria-tie-up-shrug-square-39519900-06.jpg"
+        ],
+        "size": ["M", "L", "XL", "XXL"]
+      }
+    ]
+  }
+
+];
