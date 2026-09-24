@@ -1205,7 +1205,7 @@ module.exports = [
         { "src": "https://fashion-backend-yvqn.onrender.com/product-images/dressberry-39473890-08.jpg" }
       ],
       "size": ["S", "M", "L", "XL", "XXL"]
-    }
+    },
      {
     "_id": "42563849",
     "id": 42563849,
