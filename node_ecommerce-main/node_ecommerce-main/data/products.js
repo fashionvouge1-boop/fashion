@@ -1218,12 +1218,12 @@ module.exports = [
     "product_type": "Shrug",
     "tags": ["Shrug", "Women", "Printed", "Longline"],
     "images": [
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-1.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-2.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-3.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-4.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-5.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-6.jpg"}
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-01.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-02.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-03.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-04.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-05.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-06.jpg"}
     ],
     "price": 599,
     "variants": [{"price": 599}],
@@ -1240,12 +1240,12 @@ module.exports = [
     "product_type": "Shrug",
     "tags": ["Shrug", "Women", "Printed"],
     "images": [
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-1.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-2.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-3.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-4.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-5.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-6.jpg"}
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-01.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-02.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-03.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-04.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-05.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-06.jpg"}
     ],
     "price": 599,
     "variants": [{"price": 599}],
@@ -1262,12 +1262,12 @@ module.exports = [
     "product_type": "Shrug",
     "tags": ["Shrug", "Women", "Ethnic", "Printed"],
     "images": [
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-1.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-2.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-3.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-4.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-5.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-6.jpg"}
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-01.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-02.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-03.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-04.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-05.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-06.jpg"}
     ],
     "price": 513,
     "variants": [{"price": 513, "compare_at_price": 1299}],
@@ -1347,5 +1347,185 @@ module.exports = [
       }
     ]
   }
-
+,
+  {
+    "_id": "39768914",
+    "id": 39768914,
+    "title": "DECKEDUP Women Printed Crop Ethnic Shrug",
+    "handle": "deckedup-women-printed-crop-ethnic-shrug",
+    "vendor": "DECKEDUP",
+    "product_type": "Shrug",
+    "tags": ["Shrug", "Women", "Printed", "Ethnic"],
+    "images": [
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-printed-crop-ethnic-shrug-39768914-01.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-printed-crop-ethnic-shrug-39768914-02.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-printed-crop-ethnic-shrug-39768914-03.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-printed-crop-ethnic-shrug-39768914-04.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-printed-crop-ethnic-shrug-39768914-05.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-printed-crop-ethnic-shrug-39768914-06.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-printed-crop-ethnic-shrug-39768914-07.jpg"}
+    ],
+    "price": 599,
+    "variants": [{"price": 599}],
+    "discount": 60,
+    "rating": 4.0,
+    "size": ["S", "M", "L", "XL"]
+  },
+  {
+    "_id": "22511902",
+    "id": 22511902,
+    "title": "DECKEDUP Women Kantha Printed Cotton Open Front Shrug",
+    "handle": "deckedup-women-kantha-printed-cotton-open-front-shrug",
+    "vendor": "DECKEDUP",
+    "product_type": "Shrug",
+    "tags": ["Shrug", "Women", "Printed", "Cotton"],
+    "images": [
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-kantha-printed-cotton-open-front-shrug-22511902-01.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-kantha-printed-cotton-open-front-shrug-22511902-02.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-kantha-printed-cotton-open-front-shrug-22511902-03.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-kantha-printed-cotton-open-front-shrug-22511902-04.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-kantha-printed-cotton-open-front-shrug-22511902-05.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-kantha-printed-cotton-open-front-shrug-22511902-06.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-kantha-printed-cotton-open-front-shrug-22511902-07.jpg"}
+    ],
+    "price": 599,
+    "variants": [{"price": 599}],
+    "discount": 60,
+    "rating": 4.0,
+    "size": ["S", "M", "L", "XL"]
+  },
+  {
+    "_id": "37140170",
+    "id": 37140170,
+    "title": "DECKEDUP Abstract Printed Lightweight Open Front Cotton Shrug",
+    "handle": "deckedup-abstract-printed-lightweight-open-front-cotton-shrug",
+    "vendor": "DECKEDUP",
+    "product_type": "Shrug",
+    "tags": ["Shrug", "Women", "Printed", "Cotton"],
+    "images": [
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-abstract-printed-lightweight-open-front-cotton-shrug-37140170-01.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-abstract-printed-lightweight-open-front-cotton-shrug-37140170-02.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-abstract-printed-lightweight-open-front-cotton-shrug-37140170-03.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-abstract-printed-lightweight-open-front-cotton-shrug-37140170-04.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-abstract-printed-lightweight-open-front-cotton-shrug-37140170-05.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-abstract-printed-lightweight-open-front-cotton-shrug-37140170-06.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-abstract-printed-lightweight-open-front-cotton-shrug-37140170-07.jpg"}
+    ],
+    "price": 599,
+    "variants": [{"price": 599}],
+    "discount": 60,
+    "rating": 4.0,
+    "size": ["S", "M", "L", "XL"]
+  },
+  {
+    "_id": "39768916",
+    "id": 39768916,
+    "title": "DECKEDUP Women Printed Crop Shrug",
+    "handle": "deckedup-women-printed-crop-shrug",
+    "vendor": "DECKEDUP",
+    "product_type": "Shrug",
+    "tags": ["Shrug", "Women", "Printed"],
+    "images": [
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-printed-crop-shrug-39768916-01.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-printed-crop-shrug-39768916-02.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-printed-crop-shrug-39768916-03.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-printed-crop-shrug-39768916-04.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-printed-crop-shrug-39768916-05.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-printed-crop-shrug-39768916-06.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-printed-crop-shrug-39768916-07.jpg"}
+    ],
+    "price": 599,
+    "variants": [{"price": 599}],
+    "discount": 60,
+    "rating": 4.0,
+    "size": ["S", "M", "L", "XL"]
+  },
+  {
+    "_id": "29918534",
+    "id": 29918534,
+    "title": "DECKEDUP Women Printed Shrug",
+    "handle": "deckedup-women-printed-shrug",
+    "vendor": "DECKEDUP",
+    "product_type": "Shrug",
+    "tags": ["Shrug", "Women", "Printed"],
+    "images": [
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-printed-shrug-29918534-01.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-printed-shrug-29918534-02.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-printed-shrug-29918534-03.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-printed-shrug-29918534-04.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-printed-shrug-29918534-05.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-printed-shrug-29918534-06.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/deckedup-women-printed-shrug-29918534-07.jpg"}
+    ],
+    "price": 599,
+    "variants": [{"price": 599}],
+    "discount": 60,
+    "rating": 4.0,
+    "size": ["S", "M", "L", "XL"]
+  },
+  {
+    "_id": "42915043",
+    "id": 42915043,
+    "title": "SUBAGI FASHION Women Printed Button Shrug",
+    "handle": "subagi-fashion-women-printed-button-shrug",
+    "vendor": "SUBAGI FASHION",
+    "product_type": "Shrug",
+    "tags": ["Shrug", "Women", "Printed"],
+    "images": [
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/subagi-fashion-women-printed-button-shrug-42915043-01.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/subagi-fashion-women-printed-button-shrug-42915043-02.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/subagi-fashion-women-printed-button-shrug-42915043-03.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/subagi-fashion-women-printed-button-shrug-42915043-04.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/subagi-fashion-women-printed-button-shrug-42915043-05.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/subagi-fashion-women-printed-button-shrug-42915043-06.jpg"}
+    ],
+    "price": 599,
+    "variants": [{"price": 599}],
+    "discount": 60,
+    "rating": 4.0,
+    "size": ["S", "M", "L", "XL"]
+  },
+  {
+    "_id": "32771878",
+    "id": 32771878,
+    "title": "SUBAGI FASHION Floral Printed Gathers Longline Cotton Shrug",
+    "handle": "subagi-fashion-floral-printed-gathers-longline-cotton-shrug",
+    "vendor": "SUBAGI FASHION",
+    "product_type": "Shrug",
+    "tags": ["Shrug", "Women", "Printed", "Cotton"],
+    "images": [
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/subagi-fashion-floral-printed-gathers-longline-cotton-shrug-32771878-01.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/subagi-fashion-floral-printed-gathers-longline-cotton-shrug-32771878-02.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/subagi-fashion-floral-printed-gathers-longline-cotton-shrug-32771878-03.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/subagi-fashion-floral-printed-gathers-longline-cotton-shrug-32771878-04.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/subagi-fashion-floral-printed-gathers-longline-cotton-shrug-32771878-05.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/subagi-fashion-floral-printed-gathers-longline-cotton-shrug-32771878-06.jpg"}
+    ],
+    "price": 599,
+    "variants": [{"price": 599}],
+    "discount": 60,
+    "rating": 4.0,
+    "size": ["S", "M", "L", "XL"]
+  },
+  {
+    "_id": "44206748",
+    "id": 44206748,
+    "title": "MARUTI TEX Women Printed Tasselled Longline Ethnic Tie-Up Shrug",
+    "handle": "maruti-tex-women-printed-tasselled-longline-ethnic-tie-up-shrug",
+    "vendor": "MARUTI TEX",
+    "product_type": "Shrug",
+    "tags": ["Shrug", "Women", "Printed", "Ethnic"],
+    "images": [
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/maruti-tex-women-printed-tasselled-longline-ethnic-tie-up-shrug-44206748-01.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/maruti-tex-women-printed-tasselled-longline-ethnic-tie-up-shrug-44206748-02.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/maruti-tex-women-printed-tasselled-longline-ethnic-tie-up-shrug-44206748-03.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/maruti-tex-women-printed-tasselled-longline-ethnic-tie-up-shrug-44206748-04.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/maruti-tex-women-printed-tasselled-longline-ethnic-tie-up-shrug-44206748-05.jpg"}
+    ],
+    "price": 599,
+    "variants": [{"price": 599}],
+    "discount": 60,
+    "rating": 4.0,
+    "size": ["S", "M", "L", "XL"]
+  }
 ];
