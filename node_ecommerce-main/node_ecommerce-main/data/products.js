@@ -1232,6 +1232,5 @@ module.exports = [
     "rating": 3.9,
     "size": ["S", "M", "L", "XL", "XXL"]
   },
-  ]
 }
 ];
