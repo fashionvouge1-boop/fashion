@@ -1218,12 +1218,12 @@ module.exports = [
     "product_type": "Shrug",
     "tags": ["Shrug", "Women", "Printed", "Longline"],
     "images": [
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-01.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-02.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-03.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-04.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-05.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-06.jpg"}
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-1.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-2.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-3.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-4.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-5.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/largish-women-printed-longline-shrug-46464998-6.jpg"}
     ],
     "price": 599,
     "variants": [{"price": 599}],
@@ -1240,12 +1240,12 @@ module.exports = [
     "product_type": "Shrug",
     "tags": ["Shrug", "Women", "Printed"],
     "images": [
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-01.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-02.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-03.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-04.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-05.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-06.jpg"}
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-1.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-2.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-3.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-4.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-5.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/roadster-women-printed-shrug-46014112-6.jpg"}
     ],
     "price": 599,
     "variants": [{"price": 599}],
@@ -1262,12 +1262,12 @@ module.exports = [
     "product_type": "Shrug",
     "tags": ["Shrug", "Women", "Ethnic", "Printed"],
     "images": [
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-01.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-02.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-03.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-04.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-05.jpg"},
-      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-06.jpg"}
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-1.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-2.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-3.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-4.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-5.jpg"},
+      {"src": "https://fashion-backend-yvqn.onrender.com/product-images/style-quotient-women-ethnic-printed-shrug-31050280-6.jpg"}
     ],
     "price": 513,
     "variants": [{"price": 513, "compare_at_price": 1299}],
