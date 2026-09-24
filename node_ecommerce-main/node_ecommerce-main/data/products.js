@@ -1206,6 +1206,32 @@ module.exports = [
       ],
       "size": ["S", "M", "L", "XL", "XXL"]
     }
+     {
+    "_id": "42563849",
+    "id": 42563849,
+    "title": "White and Pink Paisley Print Fit & Flare dresses",
+    "handle": "White and Pink Paisley Print Fit & Flare dresses",
+    "vendor": "RANGRIWAZ",
+    "product_type": "Dress",
+    "tags": [
+      "Dress",
+      "Women",
+      "Floral",
+      "Fit & Flare"
+    ],
+    "images": [
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/sera-print-fit-flare-dress-42563849-01.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/sera-print-fit-flare-dress-42563849-02.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/sera-print-fit-flare-dress-42563849-03.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/sera-print-fit-flare-dress-42563849-04.jpg" },
+      { "src": "https://fashion-backend-yvqn.onrender.com/product-images/sera-print-fit-flare-dress-42563849-05.jpg" }, 
+    ],
+    "price": 559,
+    "variants": [{ "price": 559 }],
+    "discount": 60,
+    "rating": 3.9,
+    "size": ["S", "M", "L", "XL", "XXL"]
+  },
   ]
 }
 ];
