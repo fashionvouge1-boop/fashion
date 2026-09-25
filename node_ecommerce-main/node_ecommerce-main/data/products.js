@@ -1528,4 +1528,313 @@ module.exports = [
     "rating": 4.0,
     "size": ["S", "M", "L", "XL"]
   }
+,
+{
+  "_id": "45468513",
+  "id": 45468513,
+  "title": "KALINI Women Ethnic Motifs Regular Kurta with Trousers With Dupatta",
+  "handle": "kalini-women-ethnic-motifs-regular-kurta-with-trousers-with-dupatta",
+  "vendor": "KALINI",
+  "product_type": "Kurta Set",
+  "tags": [
+    "Kurta Set",
+    "Women",
+    "Ethnic",
+    "Kurta",
+    "Trousers",
+    "Dupatta"
+  ],
+  "images": [
+    {
+      "src": "https://fashion-backend-yvqn.onrender.com/product-images/kalini-women-ethnic-motifs-regular-kurta-with-trousers-with-dupatta-45468513-01.jpg"
+    },
+    {
+      "src": "https://fashion-backend-yvqn.onrender.com/product-images/kalini-women-ethnic-motifs-regular-kurta-with-trousers-with-dupatta-45468513-02.jpg"
+    },
+    {
+      "src": "https://fashion-backend-yvqn.onrender.com/product-images/kalini-women-ethnic-motifs-regular-kurta-with-trousers-with-dupatta-45468513-03.jpg"
+    },
+    {
+      "src": "https://fashion-backend-yvqn.onrender.com/product-images/kalini-women-ethnic-motifs-regular-kurta-with-trousers-with-dupatta-45468513-04.jpg"
+    }
+  ],
+  "price": 599,
+  "variants": [
+    {
+      "price": 599
+    }
+  ],
+  "discount": 60,
+  "rating": 4.0,
+  "size": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ]
+},
+{
+  "_id": "43894905",
+  "id": 43894905,
+  "title": "VARANGA Women Regular Silk Georgette Kurta with Palazzos",
+  "handle": "varanga-women-regular-silk-georgette-kurta-with-palazzos",
+  "vendor": "VARANGA",
+  "product_type": "Kurta Set",
+  "tags": [
+    "Kurta Set",
+    "Women",
+    "Silk Georgette",
+    "Kurta",
+    "Palazzos"
+  ],
+  "images": [
+    {
+      "src": "https://fashion-backend-yvqn.onrender.com/product-images/varanga-women-regular-silk-georgette-kurta-with-palazzos-43894905-01.jpg"
+    },
+    {
+      "src": "https://fashion-backend-yvqn.onrender.com/product-images/varanga-women-regular-silk-georgette-kurta-with-palazzos-43894905-02.jpg"
+    },
+    {
+      "src": "https://fashion-backend-yvqn.onrender.com/product-images/varanga-women-regular-silk-georgette-kurta-with-palazzos-43894905-03.jpg"
+    },
+    {
+      "src": "https://fashion-backend-yvqn.onrender.com/product-images/varanga-women-regular-silk-georgette-kurta-with-palazzos-43894905-04.jpg"
+    },
+    {
+      "src": "https://fashion-backend-yvqn.onrender.com/product-images/varanga-women-regular-silk-georgette-kurta-with-palazzos-43894905-05.jpg"
+    },
+    {
+      "src": "https://fashion-backend-yvqn.onrender.com/product-images/varanga-women-regular-silk-georgette-kurta-with-palazzos-43894905-06.jpg"
+    },
+    {
+      "src": "https://fashion-backend-yvqn.onrender.com/product-images/varanga-women-regular-silk-georgette-kurta-with-palazzos-43894905-07.jpg"
+    }
+  ],
+  "price": 599,
+  "variants": [
+    {
+      "price": 599
+    }
+  ],
+  "discount": 60,
+  "rating": 4.0,
+  "size": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ]
+},
+{
+  "_id": "42988738",
+  "id": 42988738,
+  "title": "MAESWAG Women Ethnic Motifs Embroidered Regular Thread Work Kurta with Palazzos With Dupatta",
+  "handle": "maeswag-women-ethnic-motifs-embroidered-regular-thread-work-kurta-with-palazzos-with-dupatta",
+  "vendor": "MAESWAG",
+  "product_type": "Kurta Set",
+  "tags": [
+    "Kurta Set",
+    "Women",
+    "Ethnic",
+    "Embroidered",
+    "Thread Work",
+    "Palazzos",
+    "Dupatta"
+  ],
+  "images": [
+    {
+      "src": "https://fashion-backend-yvqn.onrender.com/product-images/maeswag-kurta-set-black-42988738-01.jpg"
+    },
+    {
+      "src": "https://fashion-backend-yvqn.onrender.com/product-images/maeswag-kurta-set-black-42988738-02.jpg"
+    },
+    {
+      "src": "https://fashion-backend-yvqn.onrender.com/product-images/maeswag-kurta-set-black-42988738-03.jpg"
+    },
+    {
+      "src": "https://fashion-backend-yvqn.onrender.com/product-images/maeswag-kurta-set-black-42988738-04.jpg"
+    },
+    {
+      "src": "https://fashion-backend-yvqn.onrender.com/product-images/maeswag-kurta-set-black-42988738-05.jpg"
+    }
+  ],
+  "price": 599,
+  "variants": [
+    {
+      "price": 599
+    }
+  ],
+  "discount": 60,
+  "rating": 4.0,
+  "size": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color_variants": [
+    {
+      "color": "Black",
+      "images": [
+        "https://fashion-backend-yvqn.onrender.com/product-images/maeswag-kurta-set-black-42988738-01.jpg",
+        "https://fashion-backend-yvqn.onrender.com/product-images/maeswag-kurta-set-black-42988738-02.jpg",
+        "https://fashion-backend-yvqn.onrender.com/product-images/maeswag-kurta-set-black-42988738-03.jpg",
+        "https://fashion-backend-yvqn.onrender.com/product-images/maeswag-kurta-set-black-42988738-04.jpg",
+        "https://fashion-backend-yvqn.onrender.com/product-images/maeswag-kurta-set-black-42988738-05.jpg"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "color": "Blue",
+      "images": [
+        "https://fashion-backend-yvqn.onrender.com/product-images/maeswag-kurta-set-blue-42988994-01.jpg",
+        "https://fashion-backend-yvqn.onrender.com/product-images/maeswag-kurta-set-blue-42988994-02.jpg",
+        "https://fashion-backend-yvqn.onrender.com/product-images/maeswag-kurta-set-blue-42988994-03.jpg",
+        "https://fashion-backend-yvqn.onrender.com/product-images/maeswag-kurta-set-blue-42988994-04.jpg",
+        "https://fashion-backend-yvqn.onrender.com/product-images/maeswag-kurta-set-blue-42988994-05.jpg"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "color": "Red",
+      "images": [
+        "https://fashion-backend-yvqn.onrender.com/product-images/maeswag-kurta-set-red-42989182-01.jpg",
+        "https://fashion-backend-yvqn.onrender.com/product-images/maeswag-kurta-set-red-42989182-02.jpg",
+        "https://fashion-backend-yvqn.onrender.com/product-images/maeswag-kurta-set-red-42989182-03.jpg",
+        "https://fashion-backend-yvqn.onrender.com/product-images/maeswag-kurta-set-red-42989182-04.jpg",
+        "https://fashion-backend-yvqn.onrender.com/product-images/maeswag-kurta-set-red-42989182-05.jpg",
+        "https://fashion-backend-yvqn.onrender.com/product-images/maeswag-kurta-set-red-42989182-06.jpg",
+        "https://fashion-backend-yvqn.onrender.com/product-images/maeswag-kurta-set-red-42989182-07.jpg"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "color": "Green",
+      "images": [
+        "https://fashion-backend-yvqn.onrender.com/product-images/maeswag-kurta-set-green-45558090-01.jpg",
+        "https://fashion-backend-yvqn.onrender.com/product-images/maeswag-kurta-set-green-45558090-02.jpg",
+        "https://fashion-backend-yvqn.onrender.com/product-images/maeswag-kurta-set-green-45558090-03.jpg",
+        "https://fashion-backend-yvqn.onrender.com/product-images/maeswag-kurta-set-green-45558090-04.jpg"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  ]
+},
+{
+  "_id": "45458573",
+  "id": 45458573,
+  "title": "HOMEXA ENTERPRISE Women Empire Thread Work Kurta with Palazzos With Dupatta",
+  "handle": "homexa-enterprise-women-empire-thread-work-kurta-with-palazzos-with-dupatta",
+  "vendor": "HOMEXA ENTERPRISE",
+  "product_type": "Kurta Set",
+  "tags": [
+    "Kurta Set",
+    "Women",
+    "Empire",
+    "Thread Work",
+    "Kurta",
+    "Palazzos",
+    "Dupatta"
+  ],
+  "images": [
+    {
+      "src": "https://fashion-backend-yvqn.onrender.com/product-images/homexa-enterprise-women-empire-thread-work-kurta-with-palazzos-with-dupatta-45458573-01.jpg"
+    },
+    {
+      "src": "https://fashion-backend-yvqn.onrender.com/product-images/homexa-enterprise-women-empire-thread-work-kurta-with-palazzos-with-dupatta-45458573-02.jpg"
+    },
+    {
+      "src": "https://fashion-backend-yvqn.onrender.com/product-images/homexa-enterprise-women-empire-thread-work-kurta-with-palazzos-with-dupatta-45458573-03.jpg"
+    },
+    {
+      "src": "https://fashion-backend-yvqn.onrender.com/product-images/homexa-enterprise-women-empire-thread-work-kurta-with-palazzos-with-dupatta-45458573-04.jpg"
+    },
+    {
+      "src": "https://fashion-backend-yvqn.onrender.com/product-images/homexa-enterprise-women-empire-thread-work-kurta-with-palazzos-with-dupatta-45458573-05.jpg"
+    },
+    {
+      "src": "https://fashion-backend-yvqn.onrender.com/product-images/homexa-enterprise-women-empire-thread-work-kurta-with-palazzos-with-dupatta-45458573-06.jpg"
+    },
+    {
+      "src": "https://fashion-backend-yvqn.onrender.com/product-images/homexa-enterprise-women-empire-thread-work-kurta-with-palazzos-with-dupatta-45458573-07.jpg"
+    }
+  ],
+  "price": 599,
+  "variants": [
+    {
+      "price": 599
+    }
+  ],
+  "discount": 60,
+  "rating": 4.0,
+  "size": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ]
+},
+{
+  "_id": "34075521",
+  "id": 34075521,
+  "title": "CORSICA Women Self Design Print Top",
+  "handle": "corsica-women-self-design-print-top",
+  "vendor": "CORSICA",
+  "product_type": "Top",
+  "tags": [
+    "Top",
+    "Women",
+    "Self Design",
+    "Print"
+  ],
+  "images": [
+    {
+      "src": "https://fashion-backend-yvqn.onrender.com/product-images/corsica-women-self-design-print-top-34075521-01.jpg"
+    },
+    {
+      "src": "https://fashion-backend-yvqn.onrender.com/product-images/corsica-women-self-design-print-top-34075521-02.jpg"
+    },
+    {
+      "src": "https://fashion-backend-yvqn.onrender.com/product-images/corsica-women-self-design-print-top-34075521-03.jpg"
+    },
+    {
+      "src": "https://fashion-backend-yvqn.onrender.com/product-images/corsica-women-self-design-print-top-34075521-04.jpg"
+    }
+  ],
+  "price": 587,
+  "variants": [
+    {
+      "price": 587
+    }
+  ],
+  "discount": 71,
+  "rating": 4.1,
+  "size": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ]
+}
 ];
