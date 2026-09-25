@@ -1368,7 +1368,7 @@ module.exports = [
     "price": 599,
     "variants": [{"price": 599}],
     "discount": 60,
-    "rating": 4.0,
+    "rating": 4.2,
     "size": ["S", "M", "L", "XL"]
   },
   {
@@ -1391,7 +1391,7 @@ module.exports = [
     "price": 599,
     "variants": [{"price": 599}],
     "discount": 60,
-    "rating": 4.0,
+    "rating": 3.9,
     "size": ["S", "M", "L", "XL"]
   },
   {
@@ -1414,7 +1414,7 @@ module.exports = [
     "price": 599,
     "variants": [{"price": 599}],
     "discount": 60,
-    "rating": 4.0,
+    "rating": 3.2,
     "size": ["S", "M", "L", "XL"]
   },
   {
@@ -1437,7 +1437,7 @@ module.exports = [
     "price": 599,
     "variants": [{"price": 599}],
     "discount": 60,
-    "rating": 4.0,
+    "rating": 4,
     "size": ["S", "M", "L", "XL"]
   },
   {
@@ -1460,7 +1460,7 @@ module.exports = [
     "price": 599,
     "variants": [{"price": 599}],
     "discount": 60,
-    "rating": 4.0,
+    "rating": 3.9,
     "size": ["S", "M", "L", "XL"]
   },
   {
@@ -1482,7 +1482,7 @@ module.exports = [
     "price": 599,
     "variants": [{"price": 599}],
     "discount": 60,
-    "rating": 4.0,
+    "rating": 3,
     "size": ["S", "M", "L", "XL"]
   },
   {
@@ -1504,7 +1504,7 @@ module.exports = [
     "price": 599,
     "variants": [{"price": 599}],
     "discount": 60,
-    "rating": 4.0,
+    "rating": 4.1,
     "size": ["S", "M", "L", "XL"]
   },
   {
@@ -1525,7 +1525,7 @@ module.exports = [
     "price": 599,
     "variants": [{"price": 599}],
     "discount": 60,
-    "rating": 4.0,
+    "rating": 3.3,
     "size": ["S", "M", "L", "XL"]
   }
 ,
@@ -1565,7 +1565,7 @@ module.exports = [
     }
   ],
   "discount": 60,
-  "rating": 4.0,
+  "rating": 3.2,
   "size": [
     "S",
     "M",
@@ -1617,7 +1617,7 @@ module.exports = [
     }
   ],
   "discount": 60,
-  "rating": 4.0,
+  "rating": 4.2,
   "size": [
     "S",
     "M",
@@ -1665,7 +1665,7 @@ module.exports = [
     }
   ],
   "discount": 60,
-  "rating": 4.0,
+  "rating": 3.9,
   "size": [
     "S",
     "M",
@@ -1786,7 +1786,7 @@ module.exports = [
     }
   ],
   "discount": 60,
-  "rating": 4.0,
+  "rating": 4.1,
   "size": [
     "S",
     "M",
@@ -1828,7 +1828,7 @@ module.exports = [
     }
   ],
   "discount": 71,
-  "rating": 4.1,
+  "rating": 3.8,
   "size": [
     "S",
     "M",
